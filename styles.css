@@ -1,0 +1,146 @@
+/* Apply global styles */
+body {
+    background-color: #b7c5b2;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+	height: 100vh;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+section {
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    width: 80%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Apply styles for Part 1 */
+#part1 {
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    width: 80%;
+}
+
+.part1 {
+    width: 30%;
+}
+
+/* Apply styles for Part 2 */
+#part2 {
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+/* CSS for hover effect and border */
+#part2 div {
+    padding: 20px;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease-in-out;
+}
+
+#part2 div:hover {
+    border-color: #000000; /* Border color when hovered */
+}
+
+#part2 div:hover img {
+    opacity: 0.5; /* Opacity of the image when hovered */
+}
+
+#part2 a {
+    text-decoration: none;
+    color: black;
+}
+.part2 {
+	width: 50%;
+}
+
+/* Apply styles for Part 3 */
+#part3 {
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    width: 80%;
+}
+
+#part4 div {
+    padding: 20px;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease-in-out;
+}
+
+#part4 div:hover {
+    border-color: #000000; /* Border color when hovered */
+}
+
+#part4 div:hover img {
+    opacity: 0.5; /* Opacity of the image when hovered */
+}
+
+
+/* Apply styles for Part 4 */
+h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+#part4 {
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+.part4 {
+	width: 20%;
+}
+
+#part4 div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.rule-section {
+    text-align: left;
+}
+
+h2 {
+    font-size: 16px   
+}
+
+hr {
+    border: 1px solid black;
+}
+/* Initial styling for the image containers */
+#part2 .image-container {
+    display: inline-block;
+    padding: 10px;
+}
+
+/* Initial styling for the image wrappers */
+#part2 .image-wrapper {
+    border: 2px solid transparent; /* Transparent border initially */
+    transition: border 0.3s ease-in-out;
+}
+
+/* Apply border effect on hover */
+#part2 .image-container:hover .image-wrapper {
+    border: 2px solid #555; /* Adjust border color and style as needed */
+}
+
+/* Apply border effect on click */
+#part2 .image-container:active .image-wrapper {
+    border: 2px solid #555; /* Adjust border color and style as needed */
+}
