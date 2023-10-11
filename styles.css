@@ -32,7 +32,7 @@ img {
 }
 
 .part1 {
-    width: 55%;
+    width: calc(55% - 50px);
 }
 
 /* Apply styles for Part 2 */
